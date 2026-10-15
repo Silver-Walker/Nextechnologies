@@ -1,0 +1,11 @@
+/* About page overview and its compact service shortcut panel. */
+.facts{display:grid;gap:14px;margin-top:22px}
+.facts div{padding:18px 20px;border-left:3px solid var(--sky);background:var(--card);border-radius:0 14px 14px 0;box-shadow:var(--sh)}
+.facts h3{font-size:18px;margin-bottom:4px}.facts p{margin:0;color:var(--mute);font-size:15.5px}
+.about-service-section{padding:8px 0 84px;background:var(--soft)}
+.about-service-panel{display:block;width:min(100%,380px);margin:0 auto;padding:24px 24px 20px;background:#064477;color:#d4e2ef;border-radius:0 0 14px 14px}
+.about-service-panel h2{margin:0 0 18px;color:#fff;font-size:28px}
+.about-service-panel button{display:flex;width:100%;align-items:center;gap:12px;padding:7px 0;border:0;background:transparent;color:#d4e2ef;text-align:left;font:500 18px/1.45 "Schibsted Grotesk",system-ui,sans-serif;cursor:pointer;transition:color .2s,transform .2s}
+.about-service-panel button:before{content:"";width:8px;height:8px;flex:none;border-top:3px solid #74d9f2;border-right:3px solid #74d9f2;transform:rotate(45deg)}
+.about-service-panel button:hover{color:#fff;transform:translateX(3px)}
+.about-service-panel button:focus-visible{outline-color:#74d9f2;outline-offset:2px}

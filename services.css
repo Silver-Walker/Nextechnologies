@@ -1,0 +1,8 @@
+/* Services page-specific section spacing and process presentation. */
+.service-showcase{padding-top:64px}
+.service-showcase .lead{margin-bottom:30px}
+.steps{display:grid;gap:20px;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));counter-reset:s}
+.st{padding:24px;border-radius:16px;background:var(--card);border:1px solid var(--line);position:relative;transition:transform .25s,border-color .25s}
+.st:hover{transform:translateY(-5px);border-color:var(--sky)}
+.st:before{counter-increment:s;content:counter(s);display:grid;place-items:center;width:34px;height:34px;border-radius:50%;background:var(--navy);color:#8fc6ff;font-weight:800;margin-bottom:14px}
+.st h3{font-size:19px;margin-bottom:6px}.st p{margin:0;color:var(--mute);font-size:15.5px}
